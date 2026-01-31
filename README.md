@@ -26,6 +26,9 @@ The toolkit includes the following modules:
 18. **Subdomain Finder**: Enumerate subdomains for a given target.
 19. **DNS Lookup**: Perform DNS record queries.
 20. **GeoIP Locator**: Locate IP addresses geographically.
+21. **WiFi Password Grabber**: (Windows Only) Extract saved WiFi passwords from the system.
+22. **Image Metadata Extractor**: View hidden EXIF data (location, camera info) from images.
+23. **Hash Tool**: Generate hashes (MD5, SHA256) or identify hash types.
 
 ## 📋 Requirements
 
@@ -36,6 +39,7 @@ The toolkit includes the following modules:
     -   `psutil`
     -   `python-whois`
     -   `dnspython`
+    -   `Pillow`
 
 ## 🛠️ Installation
 

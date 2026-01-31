@@ -5,6 +5,7 @@ import time
 
 # === Anti-Theft Protection ===
 
+
 if os.path.basename(os.getcwd()) != "ETCHERO-MULTITOOL-V3":
     sys.exit("🚫 Unauthorized clone detected. Exiting...")
 
@@ -68,6 +69,9 @@ def menu():
 [18] Subdomain Finder
 [19] DNS Lookup
 [20] GeoIP Locator
+[21] WiFi Password Grabber
+[22] Image Metadata Extractor
+[23] Hash Generator & Identifier
 [0] Exit
 """)
 
@@ -96,7 +100,10 @@ def run_tool(choice):
                 "whois_lookup",
                 "subdomain_finder",
                 "dns_lookup",
-                "geoip_locator"
+                "geoip_locator",
+                "wifi_password_grabber",
+                "image_metadata_extractor",
+                "hash_tool"
             ], 1)
         }
         os.system(tool_map[choice])

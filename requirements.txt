@@ -3,3 +3,4 @@ colorama
 psutil
 python-whois
 dnspython
+Pillow
